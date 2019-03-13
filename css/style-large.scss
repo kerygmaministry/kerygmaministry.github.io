@@ -1,3 +1,6 @@
+---
+---
+
 @import 'vars';
 @import 'mixins';
 
@@ -7,26 +10,18 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-$size-header: 21em;
+$size-header: 20em;
 
 /* Basic */
 
 	body, input, select, textarea {
-		font-size: 13pt;
+		font-size: 11pt;
 	}
 	
 /* Header */
 
 	#header {
 		width: $size-header;
-
-		> header {
-			padding: 2em;
-		}
-
-		> footer {
-			padding: 1.5em;
-		}
 	}
 	
 /* Wrapper */
@@ -37,15 +32,5 @@ $size-header: 21em;
 		}
 		@else {
 			padding-left: $size-header;
-		}
-	}
-	
-/* Main */
-
-	#main {		
-		> section {
-			> .container {
-				padding: 4em 0 2em 0;
-			}
 		}
 	}
